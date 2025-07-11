@@ -21,7 +21,6 @@ body {
 
 /* navbar style */
 .container {
-    /* padding: 0px 150px 0px 150px; */
     max-width: 1140px;
     margin: auto;
 }
@@ -48,7 +47,7 @@ body {
     border: 0px;
     background: #4E47FF;
     cursor: pointer;
-   transition: background 0.3s ease, transform 0.3s ease;
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .primary-button:hover {
@@ -260,4 +259,47 @@ textarea {
 .submit-btn {
     width: 520px;
     margin-top: 20px;
+}
+
+/* contact section wrapper */
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 104px 455px 103px 454px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    gap: 20px;
+}
+
+.footer-image {
+    width: 290px;
+}
+
+.footer-wrapper p {
+    color: #8987A1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
