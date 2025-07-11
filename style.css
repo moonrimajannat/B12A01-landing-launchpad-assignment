@@ -11,6 +11,14 @@ body {
     font-style: normal;
 }
 
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* navbar style */
 .container {
     /* padding: 0px 150px 0px 150px; */
@@ -61,7 +69,6 @@ h1 {
 
 
 /* Action Section Style */
-
 h2 {
     color: #252432;
     font-size: 42px;
@@ -76,7 +83,8 @@ h2 {
     align-items: center;
     padding: 116px 0px;
 }
-.action-container{
+
+.action-container {
     display: flex;
     flex-direction: column;
     gap: 23px;
@@ -92,4 +100,57 @@ h2 {
 
 .action-img {
     border-radius: 48px;
+}
+
+/* Productive section Style */
+.productive-wrapper {
+    margin-bottom: 137px;
+    display: flex;
+    padding: 50px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+}
+
+h3 {
+    color: #252432;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.productive-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 158px;
+    align-self: stretch;
+}
+
+.produvtive-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count {
+    color: var(--Primary-Color, #4E47FF);
+    margin: 0px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.count-title {
+    color: rgba(0, 0, 0, 0.50);
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
 }
