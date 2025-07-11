@@ -47,6 +47,13 @@ body {
     border-radius: 10px;
     border: 0px;
     background: #4E47FF;
+    cursor: pointer;
+   transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.primary-button:hover {
+    background: rgb(235, 185, 5);
+    transform: scale(1.02);
 }
 
 h1 {
@@ -181,6 +188,76 @@ h3 {
     margin: 0px;
 }
 
-#ready-to-focus-img{
+#ready-to-focus-img {
     border-radius: 48px;
+}
+
+/* Contact Section Style */
+.contact-wrapper {
+    display: flex;
+    padding: 71px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    width: 40%;
+}
+
+.big-font {
+    color: #000;
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+label {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.input-block {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    display: flex;
+    padding: 20px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 100%;
+}
+
+.message-label {
+    margin-top: 20px;
+}
+
+textarea {
+    padding: 20px 32px;
+    color: rgba(0, 0, 0, 0.50);
+    height: 135px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    width: 100%;
+}
+
+.submit-btn {
+    width: 520px;
+    margin-top: 20px;
 }
