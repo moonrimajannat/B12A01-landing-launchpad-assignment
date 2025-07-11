@@ -303,3 +303,37 @@ li {
     font-weight: 400;
     line-height: 150%;
 }
+
+.our-user-wrapper {
+    margin-bottom: 137px;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avater {
+    border-radius: 100%;
+}
+
+.user-name,
+.date {
+    margin: 0px;
+}
+
+
+.card-item {
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border: #F2EDED;
+    max-width: 370px;
+}
+
+.testimonial {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
